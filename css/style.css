@@ -42,18 +42,23 @@
 /* main section */
 
 .main-section{
-
-    /* debug */
+    background-color: black;
     height: calc(100vh - 140px) ;
-    background-color: blue;
-    border: 1px solid black;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    /* border: 1px solid black; */
 }
 
 
 .utente{
-    height: 120px;
-    width: 240px;
-    background-image:url(https://picsum.photos/240/120) ;
+    height: 100px;
+    width: 200px;
+    margin: 0 5px 15px;
+    background-image:url(https://picsum.photos/200/100) ;
+    background-size: cover;
     position:relative
 }
 
