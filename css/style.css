@@ -80,9 +80,47 @@
 
 .bottom-section{ 
     height:80px;
+    color: white;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-between;
+}
+    
 
-    /* debug */
-    background-color: chartreuse;
-    border: 1px solid black
+.left-buttons{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    line-height: 60px;
+
+    ;
 }
 
+.central-buttons{
+    width: 80%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    justify-content:end;
+}
+
+.right-buttons{
+    width: 10%;
+    background-color: grey;
+     
+}
+
+
+
+    
+
+
+
+.ending{
+    color:red;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    line-height: 60px;
+
+}
