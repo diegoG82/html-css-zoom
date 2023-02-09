@@ -81,7 +81,7 @@
 .bottom-section{ 
     height:80px;
     color: white;
-    background-color:rgba(0, 0, 0, 0.423);
+    background-color: rgb(40, 40, 40);
     display: flex;
     justify-content: space-between;
 }
@@ -97,7 +97,7 @@
 }
 
 .central-buttons{
-    width: 70%;
+    width: 75%;
     height: 100%;
     line-height: 60px;
     text-align: center;
@@ -105,7 +105,7 @@
 }
 
 .right-buttons{
-    width: 15%;
+    width: 10%;
     line-height:60px;
     text-align: center;
     background-color: grey;    
