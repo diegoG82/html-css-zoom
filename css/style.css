@@ -4,3 +4,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* general */
+
+.flex{
+    display: flex;
+}
+
+/* ------------------------------------------------------------- */
+
+/* top section */
+
+.top-section{
+    height: 60px;
+    text-align: right;
+    background-color: black;
+   
+    /* debug */
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
+}
+
+.top-section button{
+    color: white;
+    background-color: grey;
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+
+}
+
+
+ /* -----------------------------------------------------------   */
+
+
+/* main section */
+
+.main-section{
+
+    /* debug */
+    height: calc(100vh - 140px) ;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+
+.utente{
+    height: 120px;
+    width: 240px;
+    background-image:url(https://picsum.photos/240/120) ;
+    position:relative
+}
+
+.nome{
+    position: absolute;
+    bottom:0;
+    left:0;
+    background-color:grey;
+    color:white;
+    padding: 3px;
+
+}
+
+
+
+/* -------------------------------------------------------------- */
+
+/* bottom section */
+
+.bottom-section{ 
+    height:80px;
+
+    /* debug */
+    background-color: chartreuse;
+    border: 1px solid black
+}
+
