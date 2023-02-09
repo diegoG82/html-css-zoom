@@ -81,14 +81,14 @@
 .bottom-section{ 
     height:80px;
     color: white;
-    background-color: darkslategray;
+    background-color:rgba(0, 0, 0, 0.423);
     display: flex;
     justify-content: space-between;
 }
     
 
 .left-buttons{
-    width: 10%;
+    width: 15%;
     height: 100%;
     text-align: center;
     line-height: 60px;
@@ -97,30 +97,43 @@
 }
 
 .central-buttons{
-    width: 80%;
+    width: 70%;
     height: 100%;
     line-height: 60px;
     text-align: center;
-    justify-content:end;
+   
 }
 
 .right-buttons{
-    width: 10%;
-    background-color: grey;
-     
+    width: 15%;
+    line-height:60px;
+    text-align: center;
+    background-color: grey;    
 }
 
+.btn{
+    background: transparent;
+    margin:4px;
+    border: none;
+    color: white;
+}
 
+.bottom-section i  {
+    font-size: 20px;
+}
 
-    
+#green{
+    color:greenyellow;
+}
 
+ 
 
 
 .ending{
     color:red;
-    padding: 30px;
+    padding: 0 30px;
     text-align: center;
-    justify-content: center;
     line-height: 60px;
+    padding-top: 10px;
 
 }
